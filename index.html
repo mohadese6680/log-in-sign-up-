@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>LogIn & SignUp</title>
+
+</head>
+
+<body>
+
+    <div class="container" id="container">
+        <div class="form-container login-container">
+            <form action="#">
+                <h1>ورود به سایت</h1>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google-plus"></i></a>
+                    <a href="#" class="social"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <span>یا از حساب کاربری خود استفاده کنید</span>
+                <input type="email" placeholder="ایمیل">
+                <input type="password" placeholder="پسورد">
+                <a href="#">رمز عبورتان را فراموش کرده اید؟</a>
+                <button type="submit">ورود</button>
+            </form>
+        </div>
+        <div class="form-container signup-container">
+            <form action="#">
+                <h1>ایجاد حساب کاربری</h1>
+                <div class="social-container">
+                    <a href="" class="social"><i class="fab fa-facebook"></i></a>
+                    <a href="" class="social"><i class="fab fa-google-plus"></i></a>
+                    <a href="" class="social"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <span>یا برای ثبت نام از ایمیل خود استفاده کنید</span>
+                <input type="text" placeholder="نام و نام خانوادگی">
+                <input type="email" placeholder="ایمیل">
+                <input type="password" placeholder="پسورد">
+                <button type="submit">ثبت نام</button>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-right">
+                    <h1>درود بر توسعه دهندگان وب!</h1>
+                    <p>مشخصات فردی خود را وارد کنید و سفری شگفت انگیز را با ما اغاز کنید</p>
+                    <button class="ghost" id="signup">ثبت نام</button>
+                </div>
+                <div class="overlay-panel overlay-left">
+                    <h1>خوش آمدید</h1>
+                    <p>برای ورود به سایت لطفا اطلاعات شخصی خود را وارد کنید</p>
+                    <button class="ghost" id="login">ورود</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="app.js"></script>
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+</script>
+
+
+</html>
